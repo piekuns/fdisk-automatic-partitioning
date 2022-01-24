@@ -5,3 +5,5 @@
 ###### - Need check control in fdisk pipeline. If "command not found" then abort script.
 ##### fdisk_part2.sh
 ###### + Expanding space from sda2 to root and swap partitions
+##### fdisk_part3.sh
+###### + Expanding space from sda2 to srv, tmp and log
