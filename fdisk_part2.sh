@@ -18,7 +18,7 @@ read -p "Write number in GB for swap partition. This will be expanded from sda2 
 
 swapoff -v /dev/vgsys/swap                          # Deactivate swap area
 
-lvresize --resizefs -L +"$SIZE2"G /dev/vgsys/swap   # Add necessary space to swap area
+lvresize /dev/vgsys/swap -L +"$SIZE2"G              # Add necessary space to swap area
 
 mkswap /dev/vgsys/swap                              # Set up swap area
 
