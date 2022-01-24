@@ -22,6 +22,8 @@ lvresize --resizefs -L +"$SIZE2"G /dev/vgsys/swap   # Add necessary space to swa
 
 mkswap /dev/vgsys/swap                              # Set up swap area
 
+swapon -va                                          # Activate swap area
+
 lsblk
 
 read -n 1 -s -r -p "Check root and swap partitions after expanding and press any key to exit `echo $'\n> '`"
