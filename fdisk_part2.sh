@@ -6,7 +6,7 @@ lsblk
 
 read -n 1 -s -r -p "Check root partition size and press any key to proceed `echo $'\n> '`"
 
-read -p "Write number in GB for root partition. This will be expanded from sda2 to sda2/vgsys-root: `echo $'\n> '`" SIZE
+read -p "Write number in GB for root partition. This will be expanded from sda2 to sda2/vgsys-root Leave free space for next partitions (srv/tmp/log) which will be created in next script: `echo $'\n> '`" SIZE
 
 lvresize --resizefs -L +"$SIZE"G /dev/vgsys/root    # Add space to the root directory
 
