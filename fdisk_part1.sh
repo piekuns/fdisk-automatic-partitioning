@@ -1,5 +1,5 @@
 #!/bin/bash
-# Created by xxxx
+# Created by github.com/piekuns
 # 2022-01-14
 
 lsblk
