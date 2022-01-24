@@ -9,3 +9,7 @@
 ###### + Expanding space from sda2 to srv, tmp and log
 ###### + Created as Logical Volumes(LVM)
 ###### + Created as XFS file system partitions
+##### fdisk_part4.sh
+###### + Adding newly created partitions in fstab file for auto-mount after reboot. Error check control with already existing entries.
+###### + Mounting all filesystems right now
+###### + Permission change for tmp partition
