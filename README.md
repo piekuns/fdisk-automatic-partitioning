@@ -7,3 +7,5 @@
 ###### + Expanding space from sda2 to root and swap partitions
 ##### fdisk_part3.sh
 ###### + Expanding space from sda2 to srv, tmp and log
+###### + Created as Logical Volumes(LVM)
+###### + Created as XFS file system partitions
