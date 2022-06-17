@@ -1,4 +1,6 @@
 # Automatic partitioning on CentOS 7
+#### Take virtual machine snapshot. There can be some minor mistakes in characters.
+
 ##### fdisk_part1.sh
 ###### + Expanding space from sda to sda2
 ###### + Tested on CentOS 7 at 14.01.2022
